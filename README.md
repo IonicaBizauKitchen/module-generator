@@ -1,14 +1,13 @@
-# module-generator 
-[![experimental](http://badges.github.io/stability-badges/dist/experimental.svg)](http://github.com/badges/stability-badges)
+# module-generator
 
-The generator script I use for fresh modules. Forked from [hughsk](https://github.com/hughsk/module-generator). Feel free to fork for further customization.
+The generator script I use for fresh modules. Forked from [mattdesl](https://github.com/mattdesl/module-generator). Feel free to fork for further customization.
 
 ## Usage
 
 Install with npm:
 
 ``` bash
-npm install -g module-generator
+npm install -g @zeke/module-generator
 ```
 
 Update your npm config:
@@ -58,15 +57,15 @@ var myFunkyModule = require('./')
 var test = require('tape')
 
 test(/* description inserted here */, function(t) {
-  
+
   t.end()
 })
 ```
 
-This also installs `tape@lastest` as a default devDependency and stores it in your `package.json`. 
+This also installs `tape@lastest` as a default devDependency and stores it in your `package.json`.
 
 Example:
- 
+
 ```module-generator -t```
 
 ## User/Organization
@@ -77,8 +76,8 @@ If you want the GitHub links to point to a specific organization or user, you ca
 module-generator -u stackgl
 ```
 
-This will use "stackgl" as the name in License and in all github links. The author's name/URL still uses `npm config` as set earlier. 
+This will use "stackgl" as the name in License and in all github links. The author's name/URL still uses `npm config` as set earlier.
 
 ## License
 
-MIT. See [LICENSE.md](http://github.com/mattdesl/module-generator/blob/master/LICENSE.md) for details.
+MIT. See [LICENSE.md](http://github.com/zeke/module-generator/blob/master/LICENSE.md) for details.

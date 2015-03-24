@@ -1,5 +1,5 @@
 {
-  "name": "module-generator",
+  "name": "@zeke/module-generator",
   "version": "2.0.9",
   "bin": {
     "module-generator": "index.js"
@@ -11,7 +11,7 @@
   "contributors": [
     "Matt DesLauriers <dave.des@gmail.com>"
   ],
-  "author": "Hugh Kennedy <hughskennedy@gmail.com> (http://hughsk.io/)",
+  "author": "Zeke Sikelianos <zeke@sikelianos.com> (http://zeke.sikelianos.com)",
   "dependencies": {
     "chalk": "^0.5.1",
     "dotty": "0.0.2",
@@ -28,7 +28,7 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git://github.com/mattdesl/module-generator.git"
+    "url": "git://github.com/zeke/module-generator.git"
   },
   "keywords": [
     "generator",
@@ -38,8 +38,8 @@
     "author",
     "npm"
   ],
-  "homepage": "https://github.com/mattdesl/module-generator",
+  "homepage": "https://github.com/zeke/module-generator",
   "bugs": {
-    "url": "https://github.com/mattdesl/module-generator/issues"
+    "url": "https://github.com/zeke/module-generator/issues"
   }
 }
